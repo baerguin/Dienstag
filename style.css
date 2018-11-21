@@ -14,6 +14,14 @@ body{
 
 #header {
   height: 60px;
+  background:#fff;
+  position:fixed;
+  z-index:99;
+  width:100%;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+  padding-left: 1rem;
 }
 
 #menu{
@@ -43,4 +51,35 @@ body{
 
 #navigation.show {
   display:block;
+}
+
+#hero{
+  background-image:url(img/intro.jpg);
+  background-position: center;
+  background-size: cover;
+  height:100vh;
+}
+
+.welcome{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.button{
+  padding: 1rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight:bold;
+  text-decoration: none;
+  box-shadow: 0 4px 6px hsla(0,0,0,0.2);
+}
+
+.button-white{
+  color: #374A67;
+  background: #fff;
+  border: 1px solid #374A67;
 }
