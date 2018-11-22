@@ -87,6 +87,8 @@ body{
 .button-blue{
   color: #fff;
   background: #374A67;
+  border: 1px solid #374A67;
+  display: inline-block;
 }
 
 #rezepte {
@@ -107,6 +109,10 @@ body{
   color: #333;
   text-decoration: none;
   font-weight: bold;
+}
+
+.card p, .card h3 {
+  padding:0 1rem;
 }
 
 .card img{
