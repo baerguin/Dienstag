@@ -1,53 +1,68 @@
 <!doctype html>
 <html lang="de">
-  <head>
-      <meta charset="utf-8">
-      <title>Seitentitel | Weitere Beschreibung</title>
-      <meta name="description" content="Auf dieser Testseite wird es tolle Bilder von Essen geben. Rezepte und so weiter hurra hurra.">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Das ist ein Kommentar -->
-      <link rel="stylesheet" href="style.css">
-      <script src="menu.js" defer>
-      </script>
-  </head>
-  <body>
-    <header id="header">
-      <a href="#">
-        <img src="img/logo.svg" alt="Logo Kochen" height="40" title="huhu">
-      </a>
 
-      <button type="button" name="button" id="burger">
-        <img src="img/menu.svg" alt="menu" height="40">
-      </button>
+<head>
+  <meta charset="utf-8">
+  <title>Seitentitel | Weitere Beschreibung</title>
+  <meta name="description" content="Auf dieser Testseite wird es tolle Bilder von Essen geben. Rezepte und so weiter hurra hurra.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Das ist ein Kommentar -->
+  <link rel="stylesheet" href="style.css">
+  <script src="menu.js" defer>
+  </script>
+</head>
 
-      <nav id="navigation">
-        <ul id="menu">
-          <li>
-              <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Rezepte</a>
-          </li>
-          <li>
-            <a href="#">Kategorien</a>
-          </li>
-          <li>
-            <a href="#">Über uns</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <header id="header">
+    <a href="#">
+      <img src="img/logo.svg" alt="Logo Kochen" height="40" title="huhu">
+    </a>
 
-    <main>
-      <section id="hero">
-        <div class="welcome">
+    <button type="button" name="button" id="burger">
+      <img src="img/menu.svg" alt="menu" height="40">
+    </button>
+
+    <nav id="navigation">
+      <ul id="menu">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Rezepte</a>
+        </li>
+        <li>
+          <a href="#">Kategorien</a>
+        </li>
+        <li>
+          <a href="#">Über uns</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="welcome">
         <h1>Die besten Rezepte für Webworker</h1>
         <p>Es gibt mehr als Pizza & Ravioli</p>
-        <a href="#" class="button button-white">Entdecke die Leckereien</a>
-        </div>
-      </section>
+        <a href="#rezepte" class="button button-white">Entdecke die Leckereien</a>
+      </div>
+    </section>
+    <section id="rezepte">
+      <h2>Die neuesten Rezepte</h2>
+      <article class="card">
+        <a href="#">
+          <img src="img/burger.jpg" alt="Burger">
+        </a>
+        <h3>
+          <a href="#">Total leckerer Burger</a>
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="#" class="button button-blue">Zum Rezept</a>
+      </article>
+    </section>
+  </main>
 
-    </main>
+</body>
 
-  </body>
 </html>
