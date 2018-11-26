@@ -95,6 +95,10 @@ body{
   padding:1rem;
 }
 
+#rezepte h2{
+  text-align: center;
+}
+
 .card{
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
   border-radius: 4px;
@@ -119,4 +123,38 @@ body{
   width:100%;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+}
+
+.widget{
+  background-color: #04122b;
+  text-align: center;
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+h2 span{
+  display: block;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.newsletter {
+  margin-top: 1rem;
+}
+
+.email {
+  height: 49px;
+  border-radius: 4px;
+  outline: none;
+  border-color: transparent;
+  padding-left: 1rem;
+}
+
+.email::placeholder{
+  color:#04122b;
+}
+
+footer {
+  background-color: #fff;
 }
